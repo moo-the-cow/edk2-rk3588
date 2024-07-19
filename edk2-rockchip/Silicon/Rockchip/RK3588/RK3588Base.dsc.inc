@@ -79,6 +79,9 @@
 !ifndef RK_AHCI_ENABLE
   DEFINE RK_AHCI_ENABLE             = TRUE
 !endif
+!ifndef RK_DW_HDMI_QP_ENABLE
+  DEFINE RK_DW_HDMI_QP_ENABLE       = TRUE
+!endif
 
   #
   # RK3588-specific flags
@@ -266,8 +269,8 @@
   #
   # Display
   #
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|0x780
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|0x438
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|0
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|0
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|0
 

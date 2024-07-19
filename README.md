@@ -8,6 +8,7 @@ This repository contains an UEFI firmware implementation based on EDK2 for vario
 - [Orange Pi 5](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html)
 - [Orange Pi 5 Plus](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-plus.html)
 - [ameriDroid Indiedroid Nova](https://indiedroid.us)
+- [Fydetab Duo](https://fydetabduo.com/)
 - [Firefly AIO-3588Q](https://en.t-firefly.com/product/industry/aio3588q)
 - [Firefly ITX-3588J](https://en.t-firefly.com/product/industry/itx3588j)
 - [Firefly ROC-RK3588S-PC](https://en.t-firefly.com/product/industry/rocrk3588spc)
@@ -55,7 +56,7 @@ This repository contains an UEFI firmware implementation based on EDK2 for vario
 | HDMI output                        | 🟡 Partial     | Single display with mode limited at 1080p 60 Hz |
 | DisplayPort output (USB-C)         | 🟡 Partial     | Mode fixed at 1080p 60 Hz, only works in one orientation of the Type-C port. Some displays may not work regardless. |
 | eDP output                         | 🟡 Partial     | Disabled, requires manual configuration depending on the platform and panel. |
-| DSI output                         | 🔴 Not working | |
+| DSI output                         | 🟢 Working     | Only enabled on Fydetab Duo. Requires manual configuration depending on the platform and panel. |
 | GMAC Ethernet                      | 🔴 Not working | Only brought-up for OS usage |
 | Realtek PCIe Ethernet              | 🟢 Working     | Some platforms don't have MAC addresses set, networking may not work in that case. |
 | UART                               | 🟢 Working     | UART2 console available at 1500000 baud rate |
